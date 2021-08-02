@@ -1,7 +1,8 @@
-# FORTRAN_callgraph_browser
+# FORTRAN_callgraph_browser [![DOI](https://zenodo.org/badge/390411763.svg)](https://zenodo.org/badge/latestdoi/390411763)
 A browsing tool that reads in a directory of fortran code and displays it as an interactive graph. 
  
-#### Summary https://www.cemac.leeds.ac.uk/home/project-summaries/fortran-code-browser/
+#### Summary 
+https://www.cemac.leeds.ac.uk/home/project-summaries/fortran-code-browser/
  
 ## Quickstart
 The app works for all of the three main operating system. 
