@@ -1,0 +1,49 @@
+{
+    "appId": "com.wolfiex.danellis.UKCA",
+    "productName": "UKCAexplore",
+    "copyright": "CEMAC Uni Leeds",
+    "directories": {
+        "app": "./",
+        "output": "out",
+        "buildResources": "build-res"
+    },
+    "files": [
+        "package.json",
+        "app/**/*",
+        "node_modules",
+        "../*",
+        "bootstrap"
+    ],
+    "dmg": {
+        "background": null,
+        "backgroundColor": "#ffffff",
+        "window": {
+            "width": "300",
+            "height": "300"
+        },
+        "contents": [
+            {
+                "x": 100,
+                "y": 100
+            },
+            {
+                "x": 300,
+                "y": 100,
+                "type": "link",
+                "path": "/Applications"
+            }
+        ]
+    },
+    "win": {
+        "target": "nsis"
+    },
+    "linux": {
+        "target": "AppImage",
+        "category": "Utility"
+    },
+    "mac": {
+        "target": "dmg",
+        "category": "public.app-category.utilities",
+        
+      }
+}
