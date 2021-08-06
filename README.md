@@ -60,7 +60,7 @@ optional arguments:
 
 ### Requirements
 
-```pip3 install fparser2 pandas```
+```pip3 install fparser pandas tqdm```
 
 ## Rebuilding the APP
 To rebuild the app we need to package it. The process is described below:

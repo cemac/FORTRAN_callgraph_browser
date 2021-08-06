@@ -39,7 +39,7 @@ import pandas as pd
 parser = argparse.ArgumentParser(description=info)
 
 parser.add_argument('-p','--path',dest='path',type=str, help= 'location of fortran source code')
-parser.add_argument('-n','--desc',dest='description',type=str, help= 'location of fortran source code', nargs='?',default='undefined')
+parser.add_argument('-n','--desc',dest='description',type=str, help= 'fortran source code name / description', nargs='?',default='undefined')
 parser.add_argument('-s','--skip',dest='skip',type=str, help= 'which routine names to skip separated by a space. ', nargs='?',default='undefined')
 
 
