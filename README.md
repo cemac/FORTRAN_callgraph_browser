@@ -1,5 +1,10 @@
-# FORTRAN_callgraph_browser
+# FORTRAN_callgraph_browser 
+[![DOI](https://zenodo.org/badge/390411763.svg)](https://zenodo.org/badge/latestdoi/390411763)
+
 A browsing tool that reads in a directory of fortran code and displays it as an interactive graph. 
+ 
+#### Summary 
+https://www.cemac.leeds.ac.uk/home/project-summaries/fortran-code-browser/
  
 ## Quickstart
 The app works for all of the three main operating system. 
@@ -52,7 +57,7 @@ optional arguments:
 
 ### Requirements
 
-```pip3 install fparser2 pandas```
+```pip3 install fparser pandas tqdm```
 
 ## Rebuilding the APP
 To rebuild the app we need to package it. The process is described below:
