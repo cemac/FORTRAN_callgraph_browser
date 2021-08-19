@@ -56,7 +56,7 @@ allpaths.extend(list(Path(__loc__).rglob('*.f*')))
 skip = args.skip
 if skip == 'undefined': skip = 'DR_HOOK EREPORT UMPRINT UMPRINTFLUSH'
 skip = [i.upper() for i in skip.split()]
-
+print('Ignoring names: ', ' | '.join(skip))
 ##########################
 ## functions
 ##########################

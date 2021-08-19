@@ -4,21 +4,18 @@ A browsing tool that reads in a directory of fortran code and displays it as an 
 ## Quickstart
 The app works for all of the three main operating system. 
 
-
-### Run
-When running, the app looks for a file named `fgraph.json`. This is created using the code generation program below and needs to be located within the __same__ directory as the executable extracted using one of the steps below. 
-
-
 ### Install
 The first step is installing it on your device - this does not require any admin privileges. 
-###### Mac
+#### Mac
 Use the `.dmg` file. 
 Drag the file shown to your desired folder - NOT the applications folder (see below for why).
-###### Windows
+#### Windows
 Use the `.exe` file. 
-###### Linux
+#### Linux
 Use the `.AppImage` file. 
 
+### Run
+When running, the app looks for a file named 
 
 
 
@@ -71,8 +68,7 @@ To rebuild the app we need to package it. The process is described below:
 
 ./node_modules/electron-builder/out/cli/cli.js --mac;
 
-# or for all at once:
-./node_modules/electron-builder/out/cli/cli.js -m -w -l
+
 # then copy the files to the main repo
 mv ./dist/*.dmg ../
 mv ./dist/*.exe ../

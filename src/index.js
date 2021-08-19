@@ -26,7 +26,7 @@ async function draw() {
     g.remove();
     g = svg.append("g");
 
-    data = await d3.json("./fgraph.json");
+    data = await d3.json(__dirname.split('UKCAexplorer')[0]+"/fgraph.json");
     nodes = Object.values(JSON.parse(data["nodes"]));
     links = Object.values(JSON.parse(data["links"]));
 
