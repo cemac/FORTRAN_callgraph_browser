@@ -9,18 +9,21 @@ https://www.cemac.leeds.ac.uk/home/project-summaries/fortran-code-browser/
 ## Quickstart
 The app works for all of the three main operating system. 
 
-### Install
-The first step is installing it on your device - this does not require any admin privileges. 
-#### Mac
-Use the `.dmg` file. 
-Drag the file shown to your desired folder - NOT the applications folder (see below for why).
-#### Windows
-Use the `.exe` file. 
-#### Linux
-Use the `.AppImage` file. 
 
 ### Run
-When running, the app looks for a file named 
+When running, the app looks for a file named `fgraph.json`. This is created using the code generation program below and needs to be located within the __same__ directory as the executable extracted using one of the steps below. 
+
+
+### Install
+The first step is installing it on your device - this does not require any admin privileges. 
+###### Mac
+Use the `.dmg` file. 
+Drag the file shown to your desired folder - NOT the applications folder (see below for why).
+###### Windows
+Use the `.exe` file. 
+###### Linux
+Use the `.AppImage` file. 
+
 
 
 
